@@ -7,11 +7,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>MEOWZA</code> and save to reload.
+          <code>WEBSITE IN DEVELOPMENT</code>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.instagram.com/aarinxandycreate/?hl=en"
           target="_blank"
           rel="noopener noreferrer"
         >
