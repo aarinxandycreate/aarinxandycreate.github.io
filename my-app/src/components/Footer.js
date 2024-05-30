@@ -10,7 +10,7 @@ function Footer() {
                     Join the Aarin x Andy newsletter to receive our best arrangement deals
                 </p>
                 <p className='footer-subscription-text'>
-                    You can unsubscribe at any time.
+                    But, this email prompt does nothing... unfortunately...
                 </p>
                 <div className='input-areas'>
                     <form>
