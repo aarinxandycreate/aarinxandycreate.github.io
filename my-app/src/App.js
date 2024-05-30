@@ -16,9 +16,9 @@ function App() {
      
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            <code>WEBSITE IN DEVELOPMENT</code>
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          <p className='App-title-text'>
+            AARIN x ANDY CREATE
           </p>
           <a
             className="App-link"
@@ -26,7 +26,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            MEOW
+            WEBSITE IN DEVELOPMENT
           </a>
         </header>
       </div>

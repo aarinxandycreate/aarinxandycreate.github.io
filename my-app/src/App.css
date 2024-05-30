@@ -14,7 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: url('../public/love_sucks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +27,26 @@
   color: white;
 }
 
+.App-title-text {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 200px;
+  margin-bottom: 10px;
+  color: #ff6d99;
+
+}
+
+.App-subtitle-text {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+  margin-bottom: 50px;
+  color: #ff6d99;
+}
+
 .App-link {
-  color: #61dafb;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+  margin-bottom: 50px;
+  color: #ff6d99;
 }
 
 @keyframes App-logo-spin {
