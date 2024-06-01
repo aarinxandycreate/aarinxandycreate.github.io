@@ -29,7 +29,7 @@
 
 .App-title-text {
   font-family: "Shadows Into Light", cursive;
-  font-size: 200px;
+  font-size: 8vw;
   margin-bottom: 10px;
   color: #ff6d99;
 
@@ -37,14 +37,14 @@
 
 .App-subtitle-text {
   font-family: "Shadows Into Light", cursive;
-  font-size: 60px;
+  font-size: 4vw;
   margin-bottom: 50px;
   color: #ff6d99;
 }
 
 .App-link {
   font-family: "Shadows Into Light", cursive;
-  font-size: 60px;
+  font-size: 4vw;
   margin-bottom: 50px;
   color: #ff6d99;
 }
