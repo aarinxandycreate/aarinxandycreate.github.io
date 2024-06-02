@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    max-width: 1500px;
+    /* max-width: 1500px; */
 
   }
   
@@ -24,14 +24,15 @@
     font-size: 2rem;
     text-decoration: none;
     font-family: "Shadows Into Light", cursive;
-  }
-      /* justify-self: start;
+    justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
-    align-items: left; */
+    align-items: left;
+  }
+      
   
   .fa-typo3 {
     margin-left: 0.5rem;
