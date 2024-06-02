@@ -58,9 +58,40 @@
   }
 }
 
-.paragraph {
-  text-align: justify;
-  font-size: 2rem;
-  padding: 50px;
+.Paragraph-pink {
   background-color: #ff6d99;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.Paragraph-purple {
+  background-color: #a45eff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.Paragraph-header {
+  text-align: center;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2rem;
+  font-weight: bolder;
+  max-width: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Paragraph-text {
+  text-align: center;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  max-width: 600px;
+
 }
