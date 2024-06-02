@@ -50,7 +50,7 @@
   }
   
   .nav-item {
-    height: 80px;
+    height: 20px;
   }
   
   .nav-links {
@@ -165,8 +165,8 @@
       font-size: 1.5rem;
       background-color: transparent;
       color: #fff;
-      padding: 14px 20px;
-      border: 1px solid #fff;
+      /* padding: 14px 20px; */
+      /* border: 1px solid #fff; */
       transition: all 0.3s ease-out;
     }
   
@@ -178,5 +178,5 @@
   }
 
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
