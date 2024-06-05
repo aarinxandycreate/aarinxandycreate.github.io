@@ -13,6 +13,10 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .App-header {
   background: url('../public/love_sucks.jpg');
   background-size: cover;
@@ -25,14 +29,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-decoration: none;
 }
 
 .App-title-text {
   font-family: "Shadows Into Light", cursive;
+  font-weight: 1000;
   font-size: 8vw;
   margin-bottom: 10px;
   color: #ff6d99;
-
+  text-shadow : 1px 1px 5px #ff6d99;
 }
 
 
@@ -48,15 +54,6 @@
   font-size: 4vw;
   margin-bottom: 50px;
   color: #ff6d99;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .Paragraph-pink {
