@@ -1,0 +1,78 @@
+.row {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+    justify-content: center;
+    align-content: center;
+}
+
+.box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    /* margin: auto; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+    flex-direction: column;
+
+}
+
+.column {
+    display: table-column;
+    float: left;
+    width: 50%;
+    /* display: table-cell; */
+    /* margin: auto; */
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+  /* Clear floats after the columns */
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+@media screen and (max-width: 960px) {
+    .row {
+        display: table;
+        text-align: center;
+        margin: auto;
+        max-width: 1200px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .column {
+        float: left;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .box {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 1.2rem;
+        flex-direction: column;
+    
+    }
+}

@@ -41,8 +41,10 @@ function About() {
 
             <div className="Paragraph-text">
                 <h1>LATEST PROJECT</h1>
-                <EmbeddedVideo embedId="GmCLttye9gA" />
+                
             </div>
+
+            <EmbeddedVideo embedId="GmCLttye9gA" />
 
             
         </>

@@ -1,9 +1,9 @@
 .video {
     margin: 0 auto;
-    /* width: 50%; */
+    width: 80%;
     align-items: center;
-    padding-bottom: 25%;
-    padding-top: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 video {
