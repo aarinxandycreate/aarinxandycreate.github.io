@@ -3,7 +3,7 @@ import logo from './logo.svg';
 
 // import Navbar from './components/Navbar';
 import './App.css';
-import {IndexRoute, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {HashRouter, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       {/* <Router history={hashHistory}> */}
-      <Router>
+      <HashRouter basename='/'>
         <ScrollToTop>
           <Navbar />
           <Routes>
@@ -28,11 +28,11 @@ function App() {
             <Route path='Arrangements' component={Arrangements} />
             <Route path='Contact' component={Contact} />
           </Route> */}
-            <Route path='/' element={<Home />} />
-            <Route path='/#/About' element={<About />} />
-            <Route path='/#/Arrangements' element={<Arrangements />} />
-            <Route path='/#/Contact' element={<Contact />} />
-            <Route path='/#/Portfolio' element={<Portfolio />} />
+            <Route path='/' index element={<Home />} />
+            <Route path='/About' element={<About />} />
+            <Route path='/Arrangements' element={<Arrangements />} />
+            <Route path='/Contact' element={<Contact />} />
+            <Route path='/Portfolio' element={<Portfolio />} />
           </Routes>
         </ScrollToTop>
 
@@ -53,7 +53,7 @@ function App() {
           </header>
         </div>
          */}
-      </Router>
+      </HashRouter>
       <Footer />
     </>
 
