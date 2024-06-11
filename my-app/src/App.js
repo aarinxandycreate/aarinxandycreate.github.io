@@ -3,7 +3,7 @@ import logo from './logo.svg';
 
 // import Navbar from './components/Navbar';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {IndexRoute, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -17,15 +17,22 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <>
+      {/* <Router history={hashHistory}> */}
       <Router>
         <ScrollToTop>
           <Navbar />
           <Routes>
-            <Route exact path='/' element={<Home />} />
-            <Route path='/About' element={<About />} />
-            <Route path='/Arrangements' element={<Arrangements />} />
-            <Route path='/Contact' element={<Contact />} />
-            <Route path='/Portfolio' element={<Portfolio />} />
+          {/* <Route path='/' component={App}>
+            <IndexRoute component={Home} />
+            <Route path='About' component={About} />
+            <Route path='Arrangements' component={Arrangements} />
+            <Route path='Contact' component={Contact} />
+          </Route> */}
+            <Route path='/' element={<Home />} />
+            <Route path='/#/About' element={<About />} />
+            <Route path='/#/Arrangements' element={<Arrangements />} />
+            <Route path='/#/Contact' element={<Contact />} />
+            <Route path='/#/Portfolio' element={<Portfolio />} />
           </Routes>
         </ScrollToTop>
 
