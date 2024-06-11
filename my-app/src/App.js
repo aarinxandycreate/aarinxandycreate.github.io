@@ -12,20 +12,24 @@ import About from './components/pages/About';
 import Arrangements from './components/pages/Arrangements';
 import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path='/' element={<Home/>} />
-          <Route path='/About' element={<About/>} />
-          <Route path='/Arrangements' element={<Arrangements/>} />
-          <Route path='/Contact' element={<Contact/>} />
-          <Route path='/Portfolio' element={<Portfolio/>} />
-        </Routes>
-{/*       
+        <ScrollToTop>
+          <Navbar />
+          <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route path='/About' element={<About />} />
+            <Route path='/Arrangements' element={<Arrangements />} />
+            <Route path='/Contact' element={<Contact />} />
+            <Route path='/Portfolio' element={<Portfolio />} />
+          </Routes>
+        </ScrollToTop>
+
+        {/*       
         <div className="App">
           <header className="App-header">
             <p className='App-title-text'>
@@ -45,9 +49,9 @@ function App() {
       </Router>
       <Footer />
     </>
-    
-    
-    
+
+
+
   );
 }
 
