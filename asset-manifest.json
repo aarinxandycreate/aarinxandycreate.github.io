@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.93ce1312.css",
-    "main.js": "/static/js/main.1b53d2bc.js",
+    "main.js": "/static/js/main.27574b0a.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/love_sucks.jpg": "/static/media/love_sucks.9379999a857ae0ffcf59.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.93ce1312.css.map": "/static/css/main.93ce1312.css.map",
-    "main.1b53d2bc.js.map": "/static/js/main.1b53d2bc.js.map",
+    "main.27574b0a.js.map": "/static/js/main.27574b0a.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93ce1312.css",
-    "static/js/main.1b53d2bc.js"
+    "static/js/main.27574b0a.js"
   ]
 }
