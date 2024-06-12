@@ -22,12 +22,6 @@ function App() {
         <ScrollToTop>
           <Navbar />
           <Routes>
-          {/* <Route path='/' component={App}>
-            <IndexRoute component={Home} />
-            <Route path='About' component={About} />
-            <Route path='Arrangements' component={Arrangements} />
-            <Route path='Contact' component={Contact} />
-          </Route> */}
             <Route path='/' index element={<Home />} />
             <Route path='/About' element={<About />} />
             <Route path='/Arrangements' element={<Arrangements />} />
@@ -35,24 +29,6 @@ function App() {
             <Route path='/Portfolio' element={<Portfolio />} />
           </Routes>
         </ScrollToTop>
-
-        {/*       
-        <div className="App">
-          <header className="App-header">
-            <p className='App-title-text'>
-              AARIN x ANDY CREATE
-            </p>
-            <a
-              className="App-link"
-              href="https://www.instagram.com/aarinxandycreate/?hl=en"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              WEBSITE IN DEVELOPMENT
-            </a>
-          </header>
-        </div>
-         */}
       </HashRouter>
       <Footer />
     </>
