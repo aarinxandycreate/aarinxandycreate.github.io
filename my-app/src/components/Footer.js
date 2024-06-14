@@ -31,6 +31,12 @@ function Footer() {
                 </div>
                 <div className='right-column'>
                     <div className='box'>
+                        <div className='footer-subscription'>
+                            <div className='footer-subscription-text'>
+                                Check out our creations!
+                            </div>
+                        </div>
+
                         <div className="footer-icons">
                             {/* <ul>
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/aarinxandycreate/?hl=en" class="fa fa-ig"><TiSocialInstagram /></a>
@@ -38,6 +44,7 @@ function Footer() {
                                 <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/4CLdUK0eff4vEaoptx9GvF?si=0530166dd74d4fba" class="fa fa-spotify"><AiFillSpotify /></a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://youtube.com/playlist?list=PLBxAcBEuRqUngW0fcESVjdS3OCTZhVO_Z&si=8ACJx3Nq4xhGA-YD" class="fa fa-music"><HiMusicalNote /></a>
                             </ul> */}
+
                             <ul>
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/aarinxandycreate/?hl=en" class="fa fa-ig"><TiSocialInstagram /></a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://youtube.com/playlist?list=PLBxAcBEuRqUngW0fcESVjdS3OCTZhVO_Z&si=8ACJx3Nq4xhGA-YD" class="fa fa-yt"><TiSocialYoutube /></a>
