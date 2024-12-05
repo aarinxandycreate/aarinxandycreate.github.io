@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer-subscription {
@@ -24,6 +25,18 @@
   font-size: 20px;
 }
 
+.left {
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.right {
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+  padding-right: 10px;
+}
 
 .footer-icons {
   display: flex;
@@ -100,7 +113,7 @@
   display: flex;
   /* text-align: center; */
   margin: auto;
-  width: 100%;
+  width: 80%;
 }
 
 .left-column {
@@ -132,6 +145,9 @@
   font-size: 1.2rem;
   flex-direction: column;
 }
+
+.hline { width:80%; height:1px; background: #fff }
+
 
 @media screen and (max-width: 960px) {
   .footer-row {
@@ -202,7 +218,6 @@
     justify-content: center;
     align-content: center;
     margin: auto;
-    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-size: 1.2rem;
     flex-direction: column;

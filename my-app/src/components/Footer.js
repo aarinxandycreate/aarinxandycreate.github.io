@@ -22,9 +22,12 @@ function Footer() {
             <div className='footer-row'>
                 <div className='left-column'>
                     <div className='box'>
-                        <div className='footer-subscription-text'>
+                        <div className='footer-subscription'>
                             <div className='footer-logo'>
                                 Aarin x Andy
+                            </div>
+                            <div className='footer-subscription-text left'>
+                                Thoughtful arrangements for thoughtful groups
                             </div>
                         </div>
                     </div>
@@ -32,7 +35,7 @@ function Footer() {
                 <div className='right-column'>
                     <div className='box'>
                         <div className='footer-subscription'>
-                            <div className='footer-subscription-text'>
+                            <div className='footer-subscription-text right'>
                                 Check out our creations!
                             </div>
                         </div>
@@ -56,6 +59,8 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            <div className='hline'></div>
+            <div className='footer-subscription footer-subscription-text'>2024 Aarin x Andy Create</div>
         </div>
 
     );
