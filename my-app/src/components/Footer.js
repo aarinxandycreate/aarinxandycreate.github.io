@@ -62,6 +62,7 @@ function Footer() {
             <div className='hline'></div>
             <div className='footer-subscription footer-subscription-text'>2024 Aarin x Andy Create</div>
         </div>
+        // meow
 
     );
 }
