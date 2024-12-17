@@ -1,0 +1,110 @@
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20%;
+    max-width: 1024px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel Track */
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: auto;
+}
+
+/* Carousel Slide */
+.carousel-slide {
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers slide content horizontally */
+    align-items: center; /* Centers slide content vertically */
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+/* Center Content (Images, Iframes) */
+.carousel-content {
+    max-width: 100%; /* Slightly wider content within the slide */
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 1rem; /* Space between media and text */
+}
+
+/* Title and Subtitle (Left Aligned) */
+.carousel-meta-slide {
+    width: 90%;
+    text-align: left; /* Left-align title and subtitle */
+    box-sizing: border-box;
+}
+
+.carousel-title-slide {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem 0;
+    color: #000; /* Title color */
+}
+
+.carousel-subtitle-slide {
+    font-size: 1rem;
+    margin: 0;
+    color: #222; /* Subtitle color */
+}
+
+/* Navigation Arrows */
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s;
+}
+
+.carousel-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-arrow.left {
+    left: 10px;
+}
+
+.carousel-arrow.right {
+    right: 10px;
+}
+
+/* Dots Navigation */
+.carousel-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carousel-dot.active {
+    background-color: black;
+}
