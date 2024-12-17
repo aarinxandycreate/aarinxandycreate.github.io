@@ -49,11 +49,13 @@ function Carousel({ items, options = {} }) {
             <div
                 ref={index === currentIndex ? slideRef : null}
                 className="carousel-item"
-                style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', width:'100%' }}
             >
                 {item.type === 'image' && <img src={item.src} alt={`Slide ${index + 1}`} className="carousel-content" />}
                 {item.type === 'youtube' && (
                     <iframe
+                        width='80%'
+                        height='500px'
                         className="carousel-content"
                         src={`https://www.youtube.com/embed/${item.videoId}`}
                         title={`YouTube Video ${index + 1}`}
@@ -64,6 +66,8 @@ function Carousel({ items, options = {} }) {
                 )}
                 {item.type === 'youtube-playlist' && (
                     <iframe
+                        width='80%'
+                        height='500px'
                         className="carousel-content"
                         src={`https://www.youtube.com/embed/videoseries?list=${item.playlistId}`}
                         title={`YouTube Playlist ${index + 1}`}
@@ -74,6 +78,7 @@ function Carousel({ items, options = {} }) {
                 )}
                 {item.type === 'spotify' && (
                     <iframe
+                        width='80%'
                         className="carousel-content"
                         src={`https://open.spotify.com/embed/${item.spotifyType}/${item.spotifyId}`}
                         title={`Spotify Embed ${index + 1}`}

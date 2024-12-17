@@ -34,9 +34,11 @@
 /* Center Content (Images, Iframes) */
 .carousel-content {
     max-width: 100%; /* Slightly wider content within the slide */
+    aspect-ratio: 16 / 9;
     height: auto;
     object-fit: contain;
     margin-bottom: 1rem; /* Space between media and text */
+    
 }
 
 /* Title and Subtitle (Left Aligned) */
