@@ -26,9 +26,6 @@ function Footer() {
                             <div className='footer-logo'>
                                 Aarin x Andy
                             </div>
-                            <div className='footer-subscription-text left'>
-                                Thoughtful arrangements for thoughtful groups
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -59,8 +56,6 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='hline'></div>
-            <div className='footer-subscription footer-subscription-text'>2024 Aarin x Andy Create</div>
         </div>
         // meow
 
