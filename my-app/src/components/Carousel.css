@@ -1,6 +1,7 @@
 /* Carousel Container */
 .carousel-container {
     position: relative;
+    background-color: #ff6d99;
     width: 100%;
     height: 100%;
     padding-bottom: 20%;
@@ -20,6 +21,7 @@
 
 /* Carousel Slide */
 .carousel-slide {
+    
     flex-shrink: 0;
     width: 100%;
     display: flex;
@@ -33,6 +35,7 @@
 
 /* Center Content (Images, Iframes) */
 .carousel-content {
+    
     max-width: 80%; /* Slightly wider content within the slide */
     aspect-ratio: 16 / 9;
     height: auto;
