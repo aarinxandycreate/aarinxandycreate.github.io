@@ -79,7 +79,7 @@ function Carousel({ items, options = {} }) {
                 {item.type === 'spotify' && (
                     <iframe
                         width='80%'
-                        className="carousel-content"
+                        className="spotify-embed"
                         src={`https://open.spotify.com/embed/${item.spotifyType}/${item.spotifyId}`}
                         title={`Spotify Embed ${index + 1}`}
                         frameBorder="0"
